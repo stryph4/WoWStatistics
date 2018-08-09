@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+body{
+    background-color: black;
+}
+
+.maindiv{
+    width: 80%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Dosis', sans-serif;
+    background-color: black;
+    color: lightgreen;
+    border: groove;
+    border-color: rgb(112, 154, 196);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.charcontainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.accordion {
+    background-color: rgb(51, 54, 54);
+    color: lightgreen;
+    font-family: 'Dosis', sans-serif;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+ul {
+    list-style: none;
+}
+
+.active, .accordion:hover {
+    background-color: rgb(31, 28, 28);
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: black;
+    display: none;
+    overflow: hidden;
+}
+
+#charpic{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
